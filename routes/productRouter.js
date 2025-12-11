@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
-var Product = require('../models/product'); // Sửa lại tên biến cho chuẩn
+var Product = require('../models/product');
+
 
 // Hàm xử lý lấy danh sách (Dùng chung cho /, /all, /search)
 const getProducts = async (req, res) => {
